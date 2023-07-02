@@ -24,7 +24,7 @@ function Home(){
                 </div>
             </div>
             <div className="secondDiv">
-
+                    <h2 className='h2Services'>Services I Offer</h2>
             </div>
             <div className="thirdDiv">
 

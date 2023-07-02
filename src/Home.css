@@ -4,17 +4,16 @@
     box-sizing: border-box;
 }
 .HomeDiv{
-
     width: 100%;
     height: 2000px;
     background-image: linear-gradient(to bottom, #1b263b, #415a77);
 }
 .firstDiv{
-   height: 600px;
+   height: 510px;
    width: 100%;
 }
 .meDetailsWithPhoto{
-    height: 500px;
+    height: 450px;
     width: 100%;
     position: absolute;
     top: 120px;
@@ -79,29 +78,45 @@
     border-radius: 5%;
     background-color: #e0e1dd;  
     color: black;
+    margin-bottom: 10px;
 }
 .btnDownload:hover{
     background-color: #e63946;
     color: white;
 }
 .secondDiv{
-   
-    height: 700px;
+    position: relative;
+    height: 100vh;
     width: 100%;
     background-color: #778da9;
+    color:black;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .thirdDiv{
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background-color: #1b263b;
 }
+.h2Services{
+    z-index: 10;
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+
 @media only screen and (max-width: 800px) {
     .meDetailsWithPhoto{
         display: block;
         top: 300px;
         justify-content: center;
         align-items: center;
-        height: 100%;
+        height: 700px;
     }
     .firstDiv{
         justify-content: center;
@@ -149,15 +164,18 @@
         width: 140px;
         height: 40px;
         padding: 8px;
-        border-radius: 5%;
-        background-color: #e0e1dd;  
+        border-radius: 5%; 
         color: black;
     }
     .btnDownload:hover{
         background-color: #e63946;
         color: white;
     }
+    .secondDiv{
+        width:100%;
+        height: 1000px;
+    }
 }
-@media screen and (min-width:800px) {
+@media only screen and (max-width: 387px) {
     
 }
