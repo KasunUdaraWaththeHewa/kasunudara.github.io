@@ -3,6 +3,7 @@ import * as React from 'react';
 import NavBar from './Components/NavBar';
 import myphoto from './media/my photo.png'
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 function Home(){
     return(
@@ -25,6 +26,12 @@ function Home(){
             </div>
             <div className="secondDiv">
                     <h2 className='h2Services'>Services I Offer</h2>
+                    <div className="serviceRow">
+                       
+                    </div>
+                    <div className="serviceRow">
+                            
+                    </div>
             </div>
             <div className="thirdDiv">
 

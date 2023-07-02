@@ -108,6 +108,11 @@
     font-size: 30px;
     padding-top: 50px;
 }
+.serviceRow{
+    display: flex;
+    height: 600px;
+}
+
 
 
 @media only screen and (max-width: 800px) {
