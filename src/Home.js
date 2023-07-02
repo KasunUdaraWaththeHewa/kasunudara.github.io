@@ -27,31 +27,39 @@ function Home(){
 
             <div className="secondDiv">
                     <h2 className='h2Services'><b>Services I Offer</b></h2>
-                    <div className="serviceRow">
-                        <div class="card">
-                            <div class="container">
-                                <h4><b>Full Stack Development</b></h4>
+                    <div className='servicesContainor'>
+                        <div className='divServiceContainor'>
+                            <div className="serviceRow">
+                                    <div class="card">
+                                        <div class="container">
+                                            <h4><b>Full Stack Development</b></h4>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="container">
+                                            <h4><b>Front End Development</b></h4>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div className="serviceRow">
+                                <div class="card">
+                                    <div class="container">
+                                        <h4><b>Back End Development</b></h4>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="container">
+                                        <h4><b>Java Development</b></h4>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="container">
-                                <h4><b>Front End Development</b></h4>
-                            </div>
+                            
+                        <div className='divServiceImgContainor'>
+                                <img src="https://www.designurway.com/wp-content/uploads/2020/12/Software-development.png" alt="" />
                         </div>
-                        
                     </div>
-                    <div className="serviceRow">
-                        <div class="card">
-                            <div class="container">
-                                <h4><b>Back End Development</b></h4>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="container">
-                                <h4><b>Java Development</b></h4>
-                            </div>
-                        </div>
-                    </div>
+                    
         </div>
         </div>
     );

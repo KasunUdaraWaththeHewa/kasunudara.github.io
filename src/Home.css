@@ -89,7 +89,7 @@
     position: relative;
     height: 650px;
     width: 100%;
-    background: linear-gradient(to bottom, #778da9, #e0e1dd);
+    background: linear-gradient(to bottom, white, #778da9);
     color:black;
     font-family: 'Karla', sans-serif;
     font-family: 'Mukta', sans-serif;
@@ -97,6 +97,26 @@
     font-family: 'Roboto Slab', serif;
     font-family: 'Space Grotesk', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+}
+.servicesContainor{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.divServiceImgContainor{
+    width: 50%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.divServiceImgContainor img{
+    width: 450px;
+    height: 450px;
+    margin-top: 35px;
+}
+.divServiceContainor{
+    width: 50%;
+    height: 500px;
 }
 .thirdDiv{
     height: 100vh;
@@ -114,7 +134,7 @@
     height: 250px;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 100%;
 }
 .card {
     /* Add shadows to create the "card" effect */
