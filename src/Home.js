@@ -25,7 +25,6 @@ function Home(){
                 </div>
             </div>
 
-
             <div className="secondDiv">
                     <h2 className='h2Services'><b>Services I Offer</b></h2>
                     <div className="serviceRow">
@@ -39,6 +38,9 @@ function Home(){
                                 <h4><b>Front End Development</b></h4>
                             </div>
                         </div>
+                        
+                    </div>
+                    <div className="serviceRow">
                         <div class="card">
                             <div class="container">
                                 <h4><b>Back End Development</b></h4>
@@ -50,32 +52,7 @@ function Home(){
                             </div>
                         </div>
                     </div>
-                    <div className="serviceRow">
-                        <div class="card">
-                                <div class="container">
-                                    <h4><b>Python Development</b></h4>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="container">
-                                    <h4><b>Wordpress Development</b></h4>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="container">
-                                    <h4><b>Web App Development</b></h4>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="container">
-                                    <h4><b>Mobile App Development</b></h4>
-                                </div>
-                            </div>   
-                        </div>
-                    </div>
-            <div className="thirdDiv">
-
-            </div>
+        </div>
         </div>
     );
 
