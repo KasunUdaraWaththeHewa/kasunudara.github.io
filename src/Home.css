@@ -10,36 +10,76 @@
     background-image: linear-gradient(to bottom, #1b263b, #415a77);
 }
 .firstDiv{
-   height: 700px;
+   height: 600px;
    width: 100%;
 }
 .meDetailsWithPhoto{
     height: 500px;
-    width: 70%;
-    background-color: #e0e1dd;
+    width: 100%;
     position: absolute;
     top: 120px;
-    left: 15%;
     box-shadow: "10px 20px 4px rgba(0, 0, 0, 1)";
     display: flex;
-    
+    background-image: linear-gradient(to bottom, #1b263b, #415a77);
 }
 .divPhoto{
-    width: 50%;
+    width: 35%;
     height: 70%;
-    border: 1px solid red;
     margin: 70px 20px 70px 70px;
 }
 .divPhoto img{
     height: 300px;
     width: 300px;
+    margin-top: 25px;
     border-radius:100%;
+    cursor: pointer;
 }
 .divDetails{
-    width: 70%;
+    width: 65%;
     height: 70%;
-    border: 1px solid red;
-    margin: 70px 70px 70px 20px;
+    margin: 130px 70px 70px 20px;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.divDetails h4{
+    text-align: left;
+}
+.divDetails h3{
+    color: #d90429;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+.divDetails p{
+    text-align:left;
+}
+.buttonsDiv{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.buttonDownload{
+    width: 100%;
+}
+.buttonContact{
+    width: 100%;
+}
+.btnDownload{
+    width: 140px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 5%;
+    background-color: #e0e1dd;  
+    color: black;
+}
+.btnDownload:hover{
+    background-color: #e63946;
+    color: white;
 }
 .secondDiv{
    
