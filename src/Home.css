@@ -6,7 +6,7 @@
 .HomeDiv{
     width: 100%;
     height: 2000px;
-    background-image: linear-gradient(to bottom, #1b263b, #415a77);
+    background: linear-gradient(to bottom, #1b263b, #415a77);
 }
 .firstDiv{
    height: 510px;
@@ -19,7 +19,7 @@
     top: 120px;
     box-shadow: "10px 20px 4px rgba(0, 0, 0, 1)";
     display: flex;
-    background-image: linear-gradient(to bottom, #1b263b, #415a77);
+    background: linear-gradient(to bottom, #1b263b, #415a77);
 }
 .divPhoto{
     width: 35%;
@@ -81,14 +81,15 @@
     margin-bottom: 10px;
 }
 .btnDownload:hover{
-    background-color: #e63946;
+    background-color: #d90429;
     color: white;
+    cursor: pointer;
 }
 .secondDiv{
     position: relative;
-    height: 100vh;
+    height: 800px;
     width: 100%;
-    background-color: #778da9;
+    background: linear-gradient(to bottom, #778da9, #1b263b);
     color:black;
     font-family: 'Karla', sans-serif;
     font-family: 'Mukta', sans-serif;
@@ -100,7 +101,7 @@
 .thirdDiv{
     height: 100vh;
     width: 100%;
-    background-color: #1b263b;
+    background: linear-gradient(to bottom, #1b263b, #778da9);
 }
 .h2Services{
     z-index: 10;
@@ -110,10 +111,42 @@
 }
 .serviceRow{
     display: flex;
-    height: 600px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
 }
-
-
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5%;
+    width: 220px;
+    height: 220px;
+    margin: 20px;
+    background-color: #0d1b2a;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+  .card:hover{
+    cursor: pointer;
+    background-color: #1b263b;
+    color: #d90429;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  img {
+    border-radius: 5px 5px 0 0;
+    width:100%
+  }
 
 @media only screen and (max-width: 800px) {
     .meDetailsWithPhoto{
