@@ -20,8 +20,6 @@ function Home(){
                         <div className='buttonsDiv'>
                             <div className="btnDownload">Download CV</div>
                         </div>
-                        
-                        
                     </div>
                 </div>
             </div>
