@@ -6,6 +6,49 @@
 .HomeDiv{
 
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     background-image: linear-gradient(to bottom, #1b263b, #415a77);
+}
+.firstDiv{
+   height: 700px;
+   width: 100%;
+}
+.meDetailsWithPhoto{
+    height: 500px;
+    width: 70%;
+    background-color: #e0e1dd;
+    position: absolute;
+    top: 120px;
+    left: 15%;
+    box-shadow: "10px 20px 4px rgba(0, 0, 0, 1)";
+    display: flex;
+    
+}
+.divPhoto{
+    width: 50%;
+    height: 70%;
+    border: 1px solid red;
+    margin: 70px 20px 70px 70px;
+}
+.divPhoto img{
+    height: 300px;
+    width: 300px;
+    border-radius:100%;
+}
+.divDetails{
+    width: 70%;
+    height: 70%;
+    border: 1px solid red;
+    margin: 70px 70px 70px 20px;
+}
+.secondDiv{
+   
+    height: 700px;
+    width: 100%;
+    background-color: #778da9;
+}
+.thirdDiv{
+    height: 700px;
+    width: 100%;
+    background-color: #1b263b;
 }
