@@ -2,8 +2,7 @@ import './Home.css'
 import * as React from 'react';
 import NavBar from './Components/NavBar';
 import myphoto from './media/my photo.png'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import ProgressBar from 'react-bootstrap/ProgressBar';
 
 
 
@@ -62,7 +61,80 @@ function Home(){
                         </div>
                     </div>
                     
-        </div>
+            </div>
+            <div className="thirdDiv">
+                    <h2 className='h2Skills'><b>Skills I Pocess</b></h2>
+                    <div className="skillDivContainor">
+                        <div className="skillDivContainorLeft">
+                                <img src="https://enterprix.us/wp-content/uploads/2020/04/web-design-element1-51-1536x1289.png" alt="" />
+                        </div>
+                        <div className="skillDivContainorRight">
+                            <div className='skillSetLeft'>
+                                    <label>HTML</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='HTML'></div>
+                                    </div>
+                                    <label>CSS</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='CSS'></div>
+                                    </div>
+                                    <label>JS</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='JS'></div>
+                                    </div>
+                                    <label>JQuery</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='JQUERY'></div>
+                                    </div>
+                                    <label>MYSql</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='MYSQL'></div>
+                                    </div>
+                                    <label>PHP</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='PHP'></div>
+                                    </div>
+                                    <label>Bootstrap</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='BOOTSTRAP'></div>
+                                    </div>
+                            </div>
+                            <div className='skillSetRight'>
+                                    <label>React.js</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='REACT'></div>
+                                    </div>
+                                    <label>Node.js</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='NODEJS'></div>
+                                    </div>
+                                    <label>Express.js</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='EXPRESSJS'></div>
+                                    </div>
+                                    <label>MongoDB</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='MONGODB'></div>
+                                    </div>
+                                    <label>Java</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='JAVA'></div>
+                                    </div>
+                                    <label>Python</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='PYTHON'></div>
+                                    </div>
+                                    <label>C++</label>
+                                    <div id="myProgress">
+                                        <div id="myBar" className='CPP'></div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div className="fourthDiv">
+                
+            </div>
         </div>
     );
 
