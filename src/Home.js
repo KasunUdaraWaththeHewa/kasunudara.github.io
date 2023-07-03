@@ -22,6 +22,26 @@ function Home(){
                         <div className='buttonsDiv'>
                             <div className="btnDownload">Download CV</div>
                         </div>
+                        <div className="socialDiv">
+                            <div className="divImgLinkedIn">
+                                <img src="https://www.metroprop.com/wp-content/uploads/2019/08/linkedin-icon-square-white.png" alt="" className="linkedIn" />
+                            </div>
+                            <div className="divImgGitHub">
+                                <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" alt="" />
+                            </div>
+                            <div className="divImgGmail">
+                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/da5056e3-da67-4ecb-a7f0-9dfba254e40e/ddpribr-f16837f3-2840-406c-906e-90c2ae875d5e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RhNTA1NmUzLWRhNjctNGVjYi1hN2YwLTlkZmJhMjU0ZTQwZVwvZGRwcmlici1mMTY4MzdmMy0yODQwLTQwNmMtOTA2ZS05MGMyYWU4NzVkNWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Cv1o28OmnSBUErr8VvRgvSYUrat1YFjdbVHUdOO8SLA" alt="" />
+                            </div>
+                            <div className="divImgInstagram">
+                                <img src="https://www.vippng.com/png/full/39-392497_new-instagram-logo-white-png.png" alt="" />
+                            </div>
+                            <div className="divImageFacebook">
+                                <img src="https://www.pinclipart.com/picdir/big/560-5604487_facebook-clip-art.png" alt="" />
+                            </div>    
+                            <div className="divImgHackerrank">
+                                <img src="https://www.pinclipart.com/picdir/big/138-1388876_2017-intertech-americas-corp-white-twitter-bird-transparent.png" alt="" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,6 +153,25 @@ function Home(){
                     </div>
             </div>
             <div className="fourthDiv">
+            <h2 className='h2Projects'><b>Projects I have Done</b></h2>
+                <div className='projectsContainor'>
+                        <div className="divProjectItem">
+                                <b>TravelGuideSriLanka</b>
+                        </div>
+                        <div className="divProjectItem">
+                                <b>QuarantineCenter</b>
+                        </div>
+                        <div className="divProjectItem">
+                                <b>Thogakade</b>
+                        </div>
+                        <div className="divProjectItem">
+                                <b>MyPortfolio</b>
+                        </div>
+                        <div className="divProjectItem">
+                                <b>IJSE Online Shopping platform</b>
+                        </div>
+
+                </div>
                 
             </div>
         </div>
