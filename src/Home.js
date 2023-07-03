@@ -86,7 +86,7 @@ function Home(){
                                     <div id="myProgress">
                                         <div id="myBar" className='JQUERY'></div>
                                     </div>
-                                    <label>MYSql</label>
+                                    <label>MySQL</label>
                                     <div id="myProgress">
                                         <div id="myBar" className='MYSQL'></div>
                                     </div>
