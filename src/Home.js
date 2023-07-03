@@ -5,6 +5,8 @@ import myphoto from './media/my photo.png'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+
+
 function Home(){
     return(
         <div className='HomeDiv'>
@@ -56,7 +58,7 @@ function Home(){
                         </div>
                             
                         <div className='divServiceImgContainor'>
-                                <img src="https://www.designurway.com/wp-content/uploads/2020/12/Software-development.png" alt="" />
+                                <img src="https://www.norderbergs.com/storage/2020/09/professional-web-design-social-ink-professional-web-design-png-1000_813.png"  class="imageService" alt="" />
                         </div>
                     </div>
                     
