@@ -1,8 +1,10 @@
 import './Home.css'
 import * as React from 'react';
 import NavBar from './Components/NavBar';
-import myphoto from './media/my photo.png'
-import ProgressBar from 'react-bootstrap/ProgressBar';
+import myphoto from './media/my photo.png';
+import travelguidesrilanka from './media/TravelSriLanka.png';
+import portfolio from './media/kasunudara.portfolio.png';
+import flowerexchange from './media/LSEG Flower Exchange Project.png';
 
 function Home(){
     return(
@@ -75,7 +77,7 @@ function Home(){
                         </div>
                             
                         <div className='divServiceImgContainor'>
-                                <img data-aos="fade-up" data-aos-duration="3000" src="https://www.norderbergs.com/storage/2020/09/professional-web-design-social-ink-professional-web-design-png-1000_813.png"  class="imageService" alt="" />
+                                <img src="https://www.norderbergs.com/storage/2020/09/professional-web-design-social-ink-professional-web-design-png-1000_813.png"  class="imageService" alt="" />
                         </div>
                     </div>
                     
@@ -84,7 +86,7 @@ function Home(){
                     <h2 className='h2Skills'><b>Proficient Skills</b></h2>
                     <div className="skillDivContainor">
                         <div className="skillDivContainorLeft">
-                                <img  data-aos="fade-up" data-aos-duration="3000"  src="https://enterprix.us/wp-content/uploads/2020/04/web-design-element1-51-1536x1289.png" alt="" />
+                                <img  src="https://enterprix.us/wp-content/uploads/2020/04/web-design-element1-51-1536x1289.png" alt="" />
                         </div>
                         <div className="skillDivContainorRight">
                             <div className='skillSetLeft'>
@@ -153,24 +155,39 @@ function Home(){
             <div className="fourthDiv">
             <h2 className='h2Projects'><b>Projects I have Done</b></h2>
                 <div className='projectsContainor'>
-                        <div className="divProjectItem">
-                                <b>TravelGuideSriLanka</b>
+                    <div className="projectRow">
+                            <div  data-aos="fade-up" data-aos-duration="3000" class="divProjectItem">
+                                <img src={travelguidesrilanka} alt="Avatar"/>
+                                    <div class="divProjectItemContainer">
+                                        <h5><b>TravelGuideSriLanka</b></h5>
+                                    </div>
+                            </div>
+                            <div  data-aos="fade-up" data-aos-duration="3000" class="divProjectItem">
+                                <img src={portfolio} alt="Avatar"/>
+                                    <div class="divProjectItemContainer">
+                                        <h5><b>KasunUdara.portfolio</b></h5>
+                                    </div>
+                            </div>
+                            <div  data-aos="fade-up" data-aos-duration="3000" class="divProjectItem">
+                                <img src={flowerexchange} alt="Avatar"/>
+                                    <div class="divProjectItemContainer">
+                                        <h5><b>FlowerExchangeProject</b></h5>
+                                    </div>
+                            </div>
+                    </div>
+                    <div>
+                        <div className="buttonsDiv">
+                            <div  data-aos="flip-left"data-aos-duration="1500"  className="btnDownload">
+                                Projects
+                            </div>
                         </div>
-                        <div className="divProjectItem">
-                                <b>QuarantineCenter</b>
-                        </div>
-                        <div className="divProjectItem">
-                                <b>Thogakade</b>
-                        </div>
-                        <div className="divProjectItem">
-                                <b>MyPortfolio</b>
-                        </div>
-                        <div className="divProjectItem">
-                                <b>IJSE Online Shopping platform</b>
-                        </div>
-
+                    </div>
+                        
                 </div>
                 
+            </div>
+            <div className="fifthDiv">
+            
             </div>
         </div>
     );

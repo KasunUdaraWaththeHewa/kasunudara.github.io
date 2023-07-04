@@ -33,7 +33,7 @@ function NavBar(){
       }, []);
     return(
         <div>
-            <section class="navigation" data-aos="fade-up">
+            <section class="navigation">
                 <div class="nav-container">
                     <div class="brand">
                     <a href="#!">Kasun Udara</a>
