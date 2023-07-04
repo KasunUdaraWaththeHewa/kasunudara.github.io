@@ -191,7 +191,9 @@
   padding: 2px 16px;
   background-color: #778da9;
 }
-
+.divProjectItemContainer:hover{
+  color: #0077b6;
+}
 .divProjectItem:hover{
   cursor: pointer;
   font-size: 19px;

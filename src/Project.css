@@ -16,7 +16,7 @@
     font-family: 'Roboto Slab', serif;
     font-family: 'Space Grotesk', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #e0e1dd;
+    background: linear-gradient(to bottom, #e0e1dd, white);
 }
 .projectContainor{
   height: 400px;
@@ -53,13 +53,16 @@
 }
 .divProjectItemContainer {
   padding: 2px 16px;
-  background-color: #778da9;
+  background-color: #ced4da;
+  color:black;
+}
+.divProjectItemContainer:hover{
+  color: #0077b6;
 }
 
 .divProjectItem:hover{
   cursor: pointer;
   font-size: 19px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
-  color: white;
   height: 200px;
 }
