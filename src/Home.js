@@ -16,7 +16,7 @@ function Home(){
                         <img src={myphoto} alt="" />
                     </div>
                     <div className="divDetails">
-                        <h4>Software Engineer</h4>
+                        <h4>FullStack Developer</h4>
                         <h3>Kasun Udara</h3>
                         <p>Introducing Kasun Udara, a passionate and dedicated software engineer with a strong drive for innovation and problem-solving. With a solid foundation in software development and a keen eye for detail, Kasun strives to deliver exceptional solutions that seamlessly blend functionality and user experience.</p>
                         <div className='buttonsDiv'>
