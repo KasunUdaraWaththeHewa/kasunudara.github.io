@@ -195,8 +195,9 @@
 .divProjectItem:hover{
   cursor: pointer;
   font-size: 19px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
   color: white;
+  height: 200px;
 }
 .servicesContainor{
     width: 100%;

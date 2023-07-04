@@ -186,9 +186,6 @@ function Home(){
                 </div>
                 
             </div>
-            <div className="fifthDiv">
-            
-            </div>
         </div>
     );
 
