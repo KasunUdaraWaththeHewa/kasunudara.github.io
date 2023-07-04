@@ -90,61 +90,61 @@ function Home(){
                             <div className='skillSetLeft'>
                                     <label>HTML</label>
                                     <div id="myProgress">
-                                        <div  data-aos="fill" id="myBar" className='HTML'></div>
+                                        <div  id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='HTML'></div>
                                     </div>
                                     <label>CSS</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='CSS'></div>
+                                        <div id="myBar"  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='CSS'></div>
                                     </div>
                                     <label>JS</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='JS'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='JS'></div>
                                     </div>
                                     <label>JQuery</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='JQUERY'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='JQUERY'></div>
                                     </div>
                                     <label>MySQL</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='MYSQL'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='MYSQL'></div>
                                     </div>
                                     <label>PHP</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='PHP'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='PHP'></div>
                                     </div>
                                     <label>Bootstrap</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='BOOTSTRAP'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='BOOTSTRAP'></div>
                                     </div>
                             </div>
                             <div className='skillSetRight'>
                                     <label>React.js</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='REACT'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='REACT'></div>
                                     </div>
                                     <label>Node.js</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='NODEJS'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='NODEJS'></div>
                                     </div>
                                     <label>Express.js</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='EXPRESSJS'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='EXPRESSJS'></div>
                                     </div>
                                     <label>MongoDB</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='MONGODB'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='MONGODB'></div>
                                     </div>
                                     <label>Java</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='JAVA'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='JAVA'></div>
                                     </div>
                                     <label>Python</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='PYTHON'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='PYTHON'></div>
                                     </div>
                                     <label>C++</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='CPP'></div>
+                                        <div id="myBar" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='CPP'></div>
                                     </div>
                             </div>
                         </div>
