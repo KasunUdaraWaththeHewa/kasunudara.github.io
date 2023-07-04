@@ -4,8 +4,6 @@ import NavBar from './Components/NavBar';
 import myphoto from './media/my photo.png'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
-
-
 function Home(){
     return(
         <div className='HomeDiv'>
@@ -13,33 +11,33 @@ function Home(){
             <div className="firstDiv">
                 <div className='meDetailsWithPhoto'>
                     <div className="divPhoto">
-                        <img src={myphoto} alt="" />
+                        <img  data-aos="zoom-out-up" src={myphoto} alt="" />
                     </div>
                     <div className="divDetails">
-                        <h4>FullStack Developer</h4>
-                        <h3>Kasun Udara</h3>
-                        <p>Introducing Kasun Udara, a passionate and dedicated software engineer with a strong drive for innovation and problem-solving. With a solid foundation in software development and a keen eye for detail, Kasun strives to deliver exceptional solutions that seamlessly blend functionality and user experience.</p>
+                        <h4  data-aos="fade-up">FullStack Developer</h4>
+                        <h3  data-aos="fade-up">Kasun Udara</h3>
+                        <p  data-aos="fade-up">Introducing Kasun Udara, a passionate and dedicated software engineer with a strong drive for innovation and problem-solving. With a solid foundation in software development and a keen eye for detail, Kasun strives to deliver exceptional solutions that seamlessly blend functionality and user experience.</p>
                         <div className='buttonsDiv'>
-                            <div className="btnDownload">Download CV</div>
+                            <div  data-aos="flip-left" className="btnDownload">Download CV</div>
                         </div>
                         <div className="socialDiv">
                             <div className="divImgLinkedIn">
-                                <img src="https://www.metroprop.com/wp-content/uploads/2019/08/linkedin-icon-square-white.png" alt="" className="linkedIn" />
+                                <img  data-aos="zoom-in" src="https://www.metroprop.com/wp-content/uploads/2019/08/linkedin-icon-square-white.png" alt="" className="linkedIn" />
                             </div>
                             <div className="divImgGitHub">
-                                <img src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" alt="" />
+                                <img  data-aos="zoom-in" src="https://icon-library.com/images/github-icon-white/github-icon-white-6.jpg" alt="" />
                             </div>
                             <div className="divImgGmail">
-                                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/da5056e3-da67-4ecb-a7f0-9dfba254e40e/ddpribr-f16837f3-2840-406c-906e-90c2ae875d5e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RhNTA1NmUzLWRhNjctNGVjYi1hN2YwLTlkZmJhMjU0ZTQwZVwvZGRwcmlici1mMTY4MzdmMy0yODQwLTQwNmMtOTA2ZS05MGMyYWU4NzVkNWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Cv1o28OmnSBUErr8VvRgvSYUrat1YFjdbVHUdOO8SLA" alt="" />
+                                <img  data-aos="zoom-in" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/da5056e3-da67-4ecb-a7f0-9dfba254e40e/ddpribr-f16837f3-2840-406c-906e-90c2ae875d5e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RhNTA1NmUzLWRhNjctNGVjYi1hN2YwLTlkZmJhMjU0ZTQwZVwvZGRwcmlici1mMTY4MzdmMy0yODQwLTQwNmMtOTA2ZS05MGMyYWU4NzVkNWUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Cv1o28OmnSBUErr8VvRgvSYUrat1YFjdbVHUdOO8SLA" alt="" />
                             </div>
                             <div className="divImgInstagram">
-                                <img src="https://www.vippng.com/png/full/39-392497_new-instagram-logo-white-png.png" alt="" />
+                                <img  data-aos="zoom-in" src="https://www.vippng.com/png/full/39-392497_new-instagram-logo-white-png.png" alt="" />
                             </div>
                             <div className="divImageFacebook">
-                                <img src="https://www.pinclipart.com/picdir/big/560-5604487_facebook-clip-art.png" alt="" />
+                                <img  data-aos="zoom-in" src="https://www.pinclipart.com/picdir/big/560-5604487_facebook-clip-art.png" alt="" />
                             </div>    
                             <div className="divImgHackerrank">
-                                <img src="https://www.pinclipart.com/picdir/big/138-1388876_2017-intertech-americas-corp-white-twitter-bird-transparent.png" alt="" />
+                                <img  data-aos="zoom-in" src="https://www.pinclipart.com/picdir/big/138-1388876_2017-intertech-americas-corp-white-twitter-bird-transparent.png" alt="" />
                             </div>
                         </div>
                     </div>
@@ -51,24 +49,24 @@ function Home(){
                     <div className='servicesContainor'>
                         <div className='divServiceContainor'>
                             <div className="serviceRow">
-                                    <div class="card">
+                                    <div data-aos="fade-right" class="card">
                                         <div class="container">
                                             <h4><b>Full Stack Development</b></h4>
                                         </div>
                                     </div>
-                                    <div class="card">
+                                    <div data-aos="fade-up" class="card">
                                         <div class="container">
                                             <h4><b>Front End Development</b></h4>
                                         </div>
                                     </div>
                             </div>
                             <div className="serviceRow">
-                                <div class="card">
+                                <div  data-aos="fade-left"  class="card">
                                     <div class="container">
                                         <h4><b>Back End Development</b></h4>
                                     </div>
                                 </div>
-                                <div class="card">
+                                <div  data-aos="fade-down"  class="card">
                                     <div class="container">
                                         <h4><b>Java Development</b></h4>
                                     </div>
@@ -77,22 +75,22 @@ function Home(){
                         </div>
                             
                         <div className='divServiceImgContainor'>
-                                <img src="https://www.norderbergs.com/storage/2020/09/professional-web-design-social-ink-professional-web-design-png-1000_813.png"  class="imageService" alt="" />
+                                <img data-aos="fade-up" data-aos-duration="3000" src="https://www.norderbergs.com/storage/2020/09/professional-web-design-social-ink-professional-web-design-png-1000_813.png"  class="imageService" alt="" />
                         </div>
                     </div>
                     
             </div>
             <div className="thirdDiv">
-                    <h2 className='h2Skills'><b>Skills I Pocess</b></h2>
+                    <h2 className='h2Skills'><b>Proficient Skills</b></h2>
                     <div className="skillDivContainor">
                         <div className="skillDivContainorLeft">
-                                <img src="https://enterprix.us/wp-content/uploads/2020/04/web-design-element1-51-1536x1289.png" alt="" />
+                                <img  data-aos="fade-up" data-aos-duration="3000"  src="https://enterprix.us/wp-content/uploads/2020/04/web-design-element1-51-1536x1289.png" alt="" />
                         </div>
                         <div className="skillDivContainorRight">
                             <div className='skillSetLeft'>
                                     <label>HTML</label>
                                     <div id="myProgress">
-                                        <div id="myBar" className='HTML'></div>
+                                        <div  data-aos="fill" id="myBar" className='HTML'></div>
                                     </div>
                                     <label>CSS</label>
                                     <div id="myProgress">
