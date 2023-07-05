@@ -16,7 +16,7 @@
     font-family: 'Roboto Slab', serif;
     font-family: 'Space Grotesk', sans-serif;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(to bottom, #e0e1dd, white);
+    background-color: white;
 }
 .projectContainor{
   height: 200px;

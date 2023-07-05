@@ -54,10 +54,7 @@ function NavBar(){
                         <a href="#!">Blogs</a>
                         </li>
                         <li>
-                        <a href="#!">Services</a>
-                        </li>
-                        <li>
-                        <a href="#!">Contact</a>
+                        <a href="#!">Contact-Me</a>
                         </li>
                     </ul>
                     </nav>

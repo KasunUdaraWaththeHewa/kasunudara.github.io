@@ -79,6 +79,11 @@ function Home(){
                             
                         <div className='divServiceImgContainor'>
                                 <img src="https://www.norderbergs.com/storage/2020/09/professional-web-design-social-ink-professional-web-design-png-1000_813.png"  class="imageService" alt="" />
+                                <div className="buttonsDivContact">
+                                    <div  data-aos="flip-left"data-aos-duration="1500"  className="btnDownload">
+                                        Contact Me
+                                    </div>
+                                </div>
                         </div>
                     </div>
                     
@@ -177,7 +182,7 @@ function Home(){
                             </div>
                     </div>
                     <div>
-                        <div className="buttonsDiv">
+                        <div className="buttonsDivProjects">
                             <div  data-aos="flip-left"data-aos-duration="1500"  className="btnDownload">
                                 Projects
                             </div>

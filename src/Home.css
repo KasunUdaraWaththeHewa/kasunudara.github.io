@@ -67,6 +67,19 @@
     align-items: center;
     margin-top: 20px;
 }
+.buttonsDivContact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.buttonsDivProjects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+  width: 90%;
+}
 .buttonDownload{
     width: 100%;
 }
