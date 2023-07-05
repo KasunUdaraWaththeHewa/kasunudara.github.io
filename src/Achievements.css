@@ -3,6 +3,31 @@
     padding: 0;
 }
 .achievementsDiv{
-    height: 1000px;
+    margin-top: 60px;
+    height: 2200px;
     width: 100%;
+}
+.achievementRow{
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    display: flex;
+}
+.achievementRowPart{
+    display: flex;
+    width: 50%;
+    border: 1px solid black;
+}
+.achievementPhoto{
+    width: 40%;
+    border: 1px solid blue;
+}
+.achievementDetail{
+    width: 60%;
+    border: 1px solid blue;
+}
+.achievementPhoto img{
+    margin-top: 60px;
+    width: 120px;
+    height: 150px;
 }
