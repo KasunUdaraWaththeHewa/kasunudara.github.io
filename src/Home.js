@@ -5,6 +5,7 @@ import myphoto from './media/my photo.png';
 import travelguidesrilanka from './media/TravelSriLanka.png';
 import portfolio from './media/kasunudara.portfolio.png';
 import flowerexchange from './media/LSEG Flower Exchange Project.png';
+import Footer from './Components/Footer';
 
 function Home(){
     return(
@@ -51,26 +52,26 @@ function Home(){
                     <div className='servicesContainor'>
                         <div className='divServiceContainor'>
                             <div className="serviceRow">
-                                    <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="700" class="card">
-                                        <div class="container">
+                                    <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="700" class="serviceCard">
+                                        <div class="serviceCardcontainer">
                                             <h4><b>Full Stack Development</b></h4>
                                         </div>
                                     </div>
-                                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700" class="card">
-                                        <div class="container">
+                                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700" class="serviceCard">
+                                        <div class="serviceCardcontainer">
                                             <h4><b>Front End Development</b></h4>
                                         </div>
                                     </div>
                             </div>
                             <div className="serviceRow">
-                                <div   data-aos="fade-up" data-aos-easing="linear"  data-aos-duration="700"  class="card">
-                                    <div class="container">
+                                <div   data-aos="fade-up" data-aos-easing="linear"  data-aos-duration="700"  class="serviceCard">
+                                    <div class="serviceCardcontainer">
                                         <h4><b>Back End Development</b></h4>
                                     </div>
                                 </div>
-                                <div  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="700"  class="card">
-                                    <div class="container">
-                                        <h4><b>Java Development</b></h4>
+                                <div  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="700"  class="serviceCard">
+                                    <div class="serviceCardcontainer">
+                                        <h4><b>Java<br/>Development</b></h4>
                                     </div>
                                 </div>
                             </div>
@@ -186,6 +187,7 @@ function Home(){
                 </div>
                 
             </div>
+            <Footer />
         </div>
     );
 
