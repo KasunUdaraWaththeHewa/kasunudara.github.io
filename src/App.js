@@ -3,6 +3,7 @@ import Home from './Home';
 import Project from './Project';
 import {BrowserRouter as Router, Route,Switch}from 'react-router-dom'
 import Achievements from './Achievements';
+import ContactMe from './ContactMe';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         </Route>
         <Route exact path="/achievements">
             <Achievements/>
+        </Route>
+        <Route exact path="/contact">
+            <ContactMe/>
         </Route>
         </switch>        
       </div>
