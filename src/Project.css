@@ -19,7 +19,7 @@
     background: linear-gradient(to bottom, #e0e1dd, white);
 }
 .projectContainor{
-  height: 400px;
+  height: 200px;
   margin-top: 50px;
   margin-left: 160px;
   color: white;
@@ -28,8 +28,15 @@
 }
 .projectRow{
   display: flex;
-  margin-bottom: 50px;
-  height: 250px;
+  height: 160px;
+}
+.projectDetailRow{
+  display: flex;
+  height: 100px;
+}
+.projectDetailContainor{
+  color: #0d1b2a;
+  width: 30%;
 }
 .buttonSeemoreProjects{
   width: 200px;

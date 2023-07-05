@@ -11,44 +11,68 @@ function Project(){
              <h2 className='h2Project'><b>Projects I have Done</b></h2>
             <div className='projectContainor'>
                 <div className="projectRow">
-                        <div  data-aos="fade-up" data-aos-duration="3000" class="divProjectItem">
+                        <div data-aos="zoom-in-left" data-aos-duration="3000" class="divProjectItem">
                             <img src={travelguidesrilanka} alt="Avatar"/>
                                 <div class="divProjectItemContainer">
                                     <h5><b>TravelGuideSriLanka</b></h5>
                                 </div>
                         </div>
-                        <div  data-aos="fade-up" data-aos-duration="3000" class="divProjectItem">
+                        <div  data-aos="zoom-in-left" data-aos-duration="3000" class="divProjectItem">
                             <img src={portfolio} alt="Avatar"/>
                                 <div class="divProjectItemContainer">
                                     <h5><b>KasunUdara.portfolio</b></h5>
                                 </div>
                         </div>
-                        <div  data-aos="fade-up" data-aos-duration="3000" class="divProjectItem">
+                        <div  data-aos="zoom-in-left" data-aos-duration="3000" class="divProjectItem">
                             <img src={flowerexchange} alt="Avatar"/>
                                 <div class="divProjectItemContainer">
                                     <h5><b>FlowerExchangeProject</b></h5>
                                 </div>
                         </div>
                 </div>
+                <div className="projectDetailRow">
+                    <div className="projectDetailContainor">
+                        <p  data-aos="zoom-in-left"  data-aos-duration="3000">HTML CSS JS PHP MYSQL</p>
+
+                    </div>
+                    <div className="projectDetailContainor">
+                        <p  data-aos="zoom-in-left"  data-aos-duration="3000">React HTML CSS Jquery Bootstrap AOS</p>
+                    </div>
+                    <div className="projectDetailContainor">
+                        <p  data-aos="zoom-in-left"  data-aos-duration="3000">C++ MySql </p>
+                    </div>
+                </div>
                 <div className="projectRow">
-                        <div  data-aos="fade-up" data-aos-duration="3000" class="divProjectItem">
+                        <div  data-aos="zoom-in-left" data-aos-duration="3000" class="divProjectItem">
                             <img src={travelguidesrilanka} alt="Avatar"/>
                                 <div class="divProjectItemContainer">
                                     <h5><b>TravelGuideSriLanka</b></h5>
                                 </div>
                         </div>
-                        <div  data-aos="fade-up" data-aos-duration="3000" class="divProjectItem">
+                        <div    data-aos="zoom-in-left" data-aos-duration="3000" class="divProjectItem">
                             <img src={portfolio} alt="Avatar"/>
                                 <div class="divProjectItemContainer">
                                     <h5><b>KasunUdara.portfolio</b></h5>
                                 </div>
                         </div>
-                        <div  data-aos="fade-up" data-aos-duration="3000" class="divProjectItem">
+                        <div    data-aos="zoom-in-left" data-aos-duration="3000" class="divProjectItem">
                             <img src={flowerexchange} alt="Avatar"/>
                                 <div class="divProjectItemContainer">
                                     <h5><b>FlowerExchangeProject</b></h5>
                                 </div>
                         </div>
+                </div>
+                <div className="projectDetailRow">
+                    <div className="projectDetailContainor">
+                        <p  data-aos="zoom-in-left"  data-aos-duration="3000">HTML CSS JS PHP MYSQL</p>
+
+                    </div>
+                    <div className="projectDetailContainor">
+                        <p  data-aos="zoom-in-left"  data-aos-duration="3000">React HTML CSS Jquery Bootstrap AOS</p>
+                    </div>
+                    <div className="projectDetailContainor">
+                        <p  data-aos="zoom-in-left"  data-aos-duration="3000">C++ MySql </p>
+                    </div>
                 </div>                 
             </div> 
         </div>
