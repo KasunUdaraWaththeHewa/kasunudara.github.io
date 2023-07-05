@@ -1,6 +1,7 @@
 import './NavBar.css'
 import React, { useEffect } from 'react';
 import $ from 'jquery';
+import {Link} from 'react-router-dom';
 
 function NavBar(){
     useEffect(() => {
@@ -36,25 +37,25 @@ function NavBar(){
             <section class="navigation">
                 <div class="nav-container">
                     <div class="brand">
-                    <a href="#!">Kasun Udara</a>
+                    <Link to="/">Kasun Udara</Link>
                     </div>
                     <nav>
                     <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
                     <ul class="nav-list">
                         <li>
-                        <a href="#!">Home</a>
+                        <Link to="/">Home</Link>
                         </li>
                         <li>
-                        <a href="#!">Projects</a>
+                        <Link to="/projects">Projects</Link>
                         </li>
                         <li>
-                        <a href="#!">Achievements</a>
+                        <Link to="/achievements">Achievements</Link>
                         </li>
                         <li>
-                        <a href="#!">Blogs</a>
+                        <Link to="/">Blogs</Link>
                         </li>
                         <li>
-                        <a href="#!">Contact-Me</a>
+                        <Link to="/contact">Contact-Me</Link>
                         </li>
                     </ul>
                     </nav>
