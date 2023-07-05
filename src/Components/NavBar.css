@@ -6,7 +6,7 @@ body{
 }
  .navigation {
      height: 55px;
-     background-color: black;
+     background-color: #1b263b;
      display: fixed;
      top: 0;
      position: fixed;
