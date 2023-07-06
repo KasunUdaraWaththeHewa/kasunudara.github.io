@@ -20,10 +20,13 @@
     width: 40%;
 }
 .achievementDetail{
-    width: 60%;
+    width: 55%;
     padding: 75px;
     color: black;
     text-align: justify;
+}
+.arrow{
+    width: 5%;
 }
 .achievementPhoto img{
     margin-top: 60px;

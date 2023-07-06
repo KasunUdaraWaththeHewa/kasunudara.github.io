@@ -13,7 +13,7 @@ function Achievements(){
                         <div className="achievementPhoto">
                             <img className='imgSchool' src="https://upload.wikimedia.org/wikipedia/en/0/04/Dharmasoka_College_%28crest%29.png" alt="" />
                         </div>
-                        <div className="achievementDetail">
+                        <div className="achievementDetail" id="achievementDetailLeft">
                             <p>Student from Dharmasoka College Ambalangoda. Passed GCE Scholership Exam , Got 8A s and B for O/L, Got 2A's and One B for A/Ls in Physical Science Stream. I got many skiils form my school life</p>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ function Achievements(){
                     <div className="achievementRowPart">
                         <div className="achievementPhoto">
                         </div>
-                        <div className="achievementDetail"></div>
+                        <div className="achievementDetail"  id="achievementDetailLeft"></div>
                     </div>
                     <div  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1500" className="achievementRowPart">
                         <div className="achievementPhoto">
@@ -42,7 +42,7 @@ function Achievements(){
                         <div className="achievementPhoto">
                             <img className='imgUCSC' src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISBhMQDxIVFhAVFxsbGBYVGBYQFRgYFhcYGBgYExYaHSghGB0mHxUXIzIhJSkrMC4uFx8zODMvNygtLi0BCgoKDg0NGxAQGzUmHyUwKzcyLy0vLSsvLzIyKy03MC0tNy0tLS0rLSsrLy0tNSsrLTUtLS03LS0tKystKy03Lf/AABEIALoBDgMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABgcBBQIECAP/xABDEAACAQIEAwQGBgcHBQEAAAAAAQIDEQQFEiEGMUEHEyJRFDJhgZGhI0JxsbLBCDZicnN00RYmMzdSkuEkZILC8BX/xAAbAQEAAgMBAQAAAAAAAAAAAAAABAUCAwYBB//EACkRAQACAgAFBAAHAQAAAAAAAAABAgMEERITMUEFIWFxFDIzNFKhsQb/2gAMAwEAAhEDEQA/ALxAAAAAAAAAAAAAAAABi4uBkGLmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARbEcaUqdScZwnqjJpKKcrxUnFOUmlGN2ns35edgJNOVo35+w6uEzKnVk1CV5R2cXeMk/2ovdEewnaDgpqOqbhqS06093LlG6vaW629p2+JOH1Xh3tGTp4mK8M1s3+zLzRheZiOMM8dazPC08PlIUzK5FfZLxtOliXh8wjplF21rp++vzRPKFeM6SlBpxfJrdP3mOLLXJHGG3Y1smCY549p7T4l9gcUzkbUcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGGU7i6sJ43EudV0YNvZxvUs5Sk00neO6hHfbU4pbk94o4thhavc04OtimrqnF2UV0lUkk9K5uyTbSe2xAamW4jEVWq1Rw7ybqOmtUY6knLaMHqvze8pLa7S2A72Iy7L8Ng9E8HUjOUdVKdVuU7q0m4peotT5bSva6s0y0kU9X4YcsQ63pctT3hKo6rlU7u1o7twST8lL57SHKeO6lLFqhmcYx1NqNeFtOzafeR6Lb1lbbdpAbXjjhtYjC97SX08F/uXk/aQnhjiapg8QoyvKje0ovp5uP8AQuCLTjdbp+9FW9omSdzmPfwXgqu7S5Kf/JW7eOaT1ad/K/8AStimWPwuf3rPb4WbgcZCrho1KbvCSumdoqLgbiJ4fHdzUf0NR9fqS6Nex9fcW2pbErWzxlpx8q3f0ramaaT28S5AwjJIQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAANXxJmiwuTVcRL6i8K85SemC98mkbQg/a3JrhyCTsnWV2+XgpVaivbpqhH4ARXKaFsNLG4pOfeanOorSlFNuKkrrZytKKTfJJKx8MXm1Z5hHD0ISrzUXpjRk1KLm3eU6kbN7t36X87o7eaVNGUwfdzlGbUWm5OMrUm0tot7Wvf9rdLe247KqL/ALL+kwtOtUnee7baT3j4mrO3ttsBF6uY43BwpyxFCtS31OtKUq8EpJ6k4X0wttdpLpv5bzDQo4jCug4wlSgvG+8V1LlCdPe6im1sr2cHzsmSnLG8Xkco1aco0Wqqkqji5SetpNOLajaz5ryKz4Ok1NUu6lUjGVWCak5TnGKcox1KKTto6e1W3Am/Zpmc1Krl9dtyopSptppum3a2/ReFr2Tib/jLLu/yCrFLxRWqP2w3t7+XvIVw7HT2k09LV50byirrS5RndPmn/hwe22yLPqxvTafVfejDJXmrMNmLJOPJF48PPy5bFvcB5s6+SxUnepT8L9qS8L+HzTKpx1LTjakVyjOS+EmkSjszxujO5UulSPzjv+bKPSydPNyuy9ZwRn0+pHeOErViZMIyX7iQAAAAAAAAAAAAAAAAAAAAAAAAAAAABhsh3aVisO8gnTqVqUa8dNSnCc4xctDu0k3dpx1R/wDImLKpcI+mYrvNaxPeyer6qWt/4ii7taNGlPaySXW4dTBzWLySLoyn37WiC9ZRmlpWqTXiUouO++7fRI1WT5njMuxipYZ95h29dWmo/SwtFuajFp2tJrd/O6t9cDro4/vKEG4yV6lCNtTjbeVFLZx62W6afR+Ha4XO8LVpQTtGMFJOMtcJJ6Xtqgm7XvZvna1urDW47i7FSy+NLARnDDuUo1nVjrs6lpPQ9nfxcuupew2fD+U92rLvHSkmqL8Xsc6koO927dUr2va0t+vhcZh6dKnKMqd4OTkryknsmtSa0dXZ3u9Vnax0sbmLq4P6PVToSnvUk9pN2tZ7a589lZXe+lLcNlwhneF/tnXxVetCnGMVCGuT3cucm3tHZN80l3tlyLalP6O/S1ymsBVo08LOFRaVHUoLXo0S0x0zrbqLTvJu6+r7bE5ySu8PwNKck1Tiqzoxa0tUXOfo8WungcLLorIxtPLWZZUrNrRWPKtMznqzKq1ydSf4mbHgqbXFeHt1k/wTNKSTs9w+riaD6QUpfK35nN4eNs8fb6DucMejeJ/jw/pb8eZyOMfWOR0z54AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0sblGHrVFKtRpzktk5wjJpfa0d0AQ3MeEHCrOpl7hCUoyj3U1emtas3QnHxUG/KL0+y+5EXw5OOGnDEYSs6mpaajpQxiXLVaVN697NK9vWd1dFwACnsFw41h5wp4ao6l4uEnhWpJeLWtWIkrPeNmntp9pvct4NxE8P3dafdUZVO8ldxr4iUud4StooPdq8E3vzvuWIYYGqwfD2Ep0YRjh6Xg9VuKnJdb6pXbd97t3I12n5jpwUMPF7zd5fuxtb52JrVmo023yS5spPibM/Sc5qVfq3tFfsx2Xx5+8g7+bkx8I8rj0TV62zFp7V92sLF7L8uthqmIkvXemP2R5/Mg2VZfPEY+FGnzk/gvrNl25bgo0cFClBeGCSRC9Owza3Unst/+g3IrijDHee/07aW5kwjJduQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMSMnCrK0b9AIj2i5z3OVqjB/SVbr7Irm/yKsirysub2Xv2NpxPmnpOczq/U5R/dXL47slPZ7w5eSxdZfw0/wARR5eO1n5Y7Q7LX5PTdHnt+a3+t5wTw56NhO8qL6eaV/2V/pX/ANzJWcEjmXOOkUryw5LNmvmyTkvPvIADNqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI/x1jnR4bqtO0pJRX2yaT+VyQEG7VKtsspQ/wBVR/JM0bFuXFafhL0MfU2aV+UG4byp4nNoUvq85eyK5/kveWxis8weFkqFbEUqTjFWhKSi9PJO3lsRnstwX/T1q7+s9C+yKv8AfL5FV/pBfr5H+Xp/jqGjQxRTFzeZTvW9mcuzNI7VX5W4mwcKEKk8VRjCom4Sc0lJJ2bi+vNHcy7M6OIw7nh6sKkE7aoNSV10+Z5l45/UfJP4Vb8dMkHDmbTw3YXip0W4zniHT1LZpVNKbXuuveTlMuLH8d5bQxTpVsZRjNc1qu19trm4y3NKOIwqq4epCpTf1oNSX/DPKPBnDCxuHxspTcfRsO6sUknqknZKV+mz+RIewnOJ0eN4UFJ91XjKMo9HKKcoyt5+F/EC/wDOeKsFhJJYvE06UnyjKXi/2rc5ZLxRg8XJrCYmnVkuajLxfDmeWaKlmXGyjXm08TXs5uzcVKWy38lZH3ng6uXcdaKLm/R8Qkp2e6jJXvbbdXuB6tzDMKVDCurXqRp0485TaijR4Tj/ACyriFTp42i5vktWm78k3ZFL/pAZrUnxZHC3fc0qcWo9Nc73k152sRTijhiOEyLL8QpuTxlKVSUXZKLWiyjb2T6+QHreMrnIr7sOzWeI4Gh3snKVKcqabd3pj6qb9idiwQAAAAAAAAAAAAAAAAAAAAAAAAAAAw+RBu1Wk3ltGfSM2n74v+hOjUcVZb6RklSkvWteL8pRaa+75mnYpN8VqwlaWWMWxS89omGs7OY24Yg/OUvvKV/SC/X6P8vT/FULn7OKn93dL2lCpOLXVO97fMpn9IJf38i/+2h+KoNf9Kv083f3N5+Zazjn9R8k/hVvx0zv4b/IWr/Ox/8AU13G8k+CclS5qlW/HD+hs8LTb7BK1lyxifu8JuRnZ7CMD39bMaGrT3mGUL2vbVJq9veTPg3seeA4jo4z0tVO6benu9N7xceerbmQLsdxLp4XNZxk4zjg21JPS01J7p9OaMdkvEGOrcfYanVxeJqU3qcozrVKkWlCVrpytzsBre0bg2vlueyqqL9GnUcqNWN7K71KLa9WS/K6Jt2ZdqaniYYPNFByk1GniHFJ3bso1vP2S+PmajBdoWOxfFMcBi3Snhalfu6lOVOO8NTVm/zIPxxlsMLxfiqFC6p0qjUN72XNb+av8gJJ26/5h1f4dP7ifVOz55twNlDWI7rucMl6neX1xh7Vb1CvO2lSfG2qXOdCjL4x/qmbfjrOsRQ4KyNYXEVaWrDS1d1UlSvZUkr6Wr28XxAuHs64ReV5NLDOr3t5uWrTo5pbWu/IlZXHYVjq9fhCVTE1alWTrSSlVnKpKyttqk2yxwAAAAAAAAAAAAAAAAAAAAAAAAAAAHGaOQA1OByzucyqyh/h1bSa8praT960/AiXan2d/wD6dKFWjOMMVTTS1Lwzi99La5PyftLCsLHkREPZtMzxl5to9jebVKsKdR0o047Jyq64xT3emK+5Fx4XgGhDgN5TqbhKL1VEvE6knq7xLpaVtvJWJfYyz1483YnsazaliJRoSpzhJOLlGo6WqL6Si+m3LcsLsq7MJZdiXi8VOMsS46Ywhdxpxdr7/Wk7e4s6xlICj+POx7EzzueKy2cGqk3Nwk3TlCcneThLk1e76Wua3h7sVxlXM1UzOpGNLVedpOrVqea1dL+bPQNhYCtO1Xs1lmUqeIws4wxNOOm0tozgt4rV0af3srnD9jebVK0IV5U4U47Jyqd4oq93oivuR6RsLAabhDh2nl+RU8JSbcYLeT2cpPeUmul306G6MJGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//2Q==" alt="" />
                         </div>
-                        <div className="achievementDetail">
+                        <div className="achievementDetail"  id="achievementDetailLeft">
                             <p>Currently studying "University of Colombo School of Computing - Computer Science" and willing to do Masters here</p>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ function Achievements(){
                 <div className="achievementRow">
                     <div className="achievementRowPart">
                         <div className="achievementPhoto"></div>
-                        <div className="achievementDetail"></div>
+                        <div className="achievementDetail"  id="achievementDetailLeft"></div>
                     </div>
                     <div  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1500" className="achievementRowPart">
                         <div className="achievementPhoto">
@@ -63,14 +63,15 @@ function Achievements(){
                         <div className="achievementDetail">
                             <p>Have done plenty of recognized Coursera Certificates please check my LinkedIn profile <a href="https://www.linkedin.com/in/w-h-kasun-udara-5647a4218/details/certifications/"><b>Click Here</b></a></p>
                         </div>
+                        
                     </div>
                 </div>
                 <div  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1500" className="achievementRow">
                     <div className="achievementRowPart">
-                        <div className="achievementPhoto">
+                        <div className="achievementPhoto" >
                             <img className='imgHacakthon' src="https://us.v-cdn.net/6036147/uploads/368UTZVITVZA/l-03-8-4-1200x675.jpg" alt="" />
                         </div>
-                        <div className="achievementDetail">
+                        <div className="achievementDetail" id="achievementDetailLeft">
                             <p>Got Participated to plenty of Hackathons and got the chance for the final round. "Sliit Codefest ,Sliit Codefest Algothon , IIT's Openhack , UCSC's Freshhack, UCSC's 8 Weeks of Code, UCSC's Madhack and lot more...." </p>
                         </div>
                     </div>
@@ -82,7 +83,7 @@ function Achievements(){
                 <div className="achievementRow">
                     <div className="achievementRowPart">
                         <div className="achievementPhoto"></div>
-                        <div className="achievementDetail"></div>
+                        <div className="achievementDetail" id="achievementDetailLeft"></div>
                     </div>
                     <div  data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1500" className="achievementRowPart">
                         <div className="achievementPhoto">
@@ -96,7 +97,7 @@ function Achievements(){
                 <div className="achievementRow">
                     <div className="achievementRowPart">
                         <div className="achievementPhoto"></div>
-                        <div className="achievementDetail"></div>
+                        <div className="achievementDetail" id="achievementDetailLeft"></div>
                     </div>
                     <div className="achievementRowPart">
                         <div className="achievementPhoto"></div>

@@ -6,6 +6,7 @@ import travelguidesrilanka from './media/TravelSriLanka.png';
 import portfolio from './media/kasunudara.portfolio.png';
 import flowerexchange from './media/LSEG Flower Exchange Project.png';
 import Footer from './Components/Footer';
+import {Link} from 'react-router-dom';
 
 function Home(){
     return(
@@ -52,24 +53,24 @@ function Home(){
                     <div className='servicesContainor'>
                         <div className='divServiceContainor'>
                             <div className="serviceRow">
-                                    <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="700" class="serviceCard">
+                                    <div  data-aos="zoom-out-right" data-aos-easing="linear" data-aos-duration="700" class="serviceCard">
                                         <div class="serviceCardcontainer">
                                             <h4><b>Full Stack Development</b></h4>
                                         </div>
                                     </div>
-                                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700" class="serviceCard">
+                                    <div  data-aos="zoom-out-down" data-aos-easing="linear" data-aos-duration="700" class="serviceCard">
                                         <div class="serviceCardcontainer">
                                             <h4><b>Front End Development</b></h4>
                                         </div>
                                     </div>
                             </div>
                             <div className="serviceRow">
-                                <div   data-aos="fade-up" data-aos-easing="linear"  data-aos-duration="700"  class="serviceCard">
+                                <div    data-aos="zoom-out-up" data-aos-easing="linear"  data-aos-duration="700"  class="serviceCard">
                                     <div class="serviceCardcontainer">
                                         <h4><b>Back End Development</b></h4>
                                     </div>
                                 </div>
-                                <div  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="700"  class="serviceCard">
+                                <div   data-aos="zoom-out-left" data-aos-easing="linear" data-aos-duration="700"  class="serviceCard">
                                     <div class="serviceCardcontainer">
                                         <h4><b>Java<br/>Development</b></h4>
                                     </div>
@@ -78,10 +79,10 @@ function Home(){
                         </div>
                             
                         <div className='divServiceImgContainor'>
-                                <img src="https://www.norderbergs.com/storage/2020/09/professional-web-design-social-ink-professional-web-design-png-1000_813.png"  class="imageService" alt="" />
+                                <img src="https://www.infomazeelite.com/wp-content/uploads/2022/02/Hire-MERN-Stack-Developers-from-us.png"  class="imageService" alt="" />
                                 <div className="buttonsDivContact">
                                     <div  data-aos="flip-left"data-aos-duration="1500"  className="btnDownload">
-                                        Contact Me
+                                        <Link to="/contact">Contact Me</Link>
                                     </div>
                                 </div>
                         </div>
@@ -92,7 +93,7 @@ function Home(){
                     <h2 className='h2Skills'><b>Proficient Skills</b></h2>
                     <div className="skillDivContainor">
                         <div className="skillDivContainorLeft">
-                                <img  src="https://enterprix.us/wp-content/uploads/2020/04/web-design-element1-51-1536x1289.png" alt="" />
+                                <img  src="https://www.infomazeelite.com/wp-content/uploads/2022/02/Hire-Full-Stack-Developer-from-us.png" alt="" />
                         </div>
                         <div className="skillDivContainorRight">
                             <div className='skillSetLeft'>
@@ -184,7 +185,7 @@ function Home(){
                     <div>
                         <div className="buttonsDivProjects">
                             <div  data-aos="flip-left"data-aos-duration="1500"  className="btnDownload">
-                                Projects
+                                <Link to="/projects">Projects</Link>
                             </div>
                         </div>
                     </div>

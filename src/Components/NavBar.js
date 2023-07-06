@@ -52,7 +52,7 @@ function NavBar(){
                         <Link to="/achievements">Achievements</Link>
                         </li>
                         <li>
-                        <Link to="/">Blogs</Link>
+                        <Link to="/blogs">Blogs</Link>
                         </li>
                         <li>
                         <Link to="/contact">Contact-Me</Link>

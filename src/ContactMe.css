@@ -14,6 +14,7 @@
     margin-left: 500px;
     margin-top:150px;
     background: linear-gradient(to bottom, #1b263b, #415a77);
+    border-radius: 5%;
 }
 .legendContactUs{
     width: 500px;
@@ -31,9 +32,10 @@
     width: 150px;
     height: 30px;
     margin-top: 50px;
-    background-color: #e0e1dd;
-    color: black;
+    background-color: #778da9;
+    color: white;
     font-size: 18px;
+    border-radius: 10%;
 }
 .contactMebtn:hover{
     background-color: #1b263b;
@@ -41,9 +43,10 @@
 }
 .text{
     width: 400px;
-    padding-left: 5px;
+    padding-left: 10px;
     font-size: 16px;
     height:45px;
+    border-radius: 5%;
 }
 .textArea{
     width: 400px;
