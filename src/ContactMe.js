@@ -11,11 +11,11 @@ function ContactMe(){
                     <legend className="legendContactUs">
                         <form className="formContactUs">
                                 <label>Name</label><br/>
-                                <input className="text" type="text" placeholder="name" /><br/>
+                                <input className="text" type="text" placeholder="Name" /><br/>
                                 <label>Email</label><br/>
                                 <input className="text"  type="text" placeholder="Email"/><br/>
                                 <label>Reason For Contact</label><br/>
-                                <input className="text"  type="text" placeholder="Reason for Contact"/><br/>
+                                <input className="textArea"  type="textarea" placeholder="Reason for Contact"/><br/>
                                 <div className="contactMebtn">Contact Me</div>
                         </form>
                     </legend>
