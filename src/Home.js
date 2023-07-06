@@ -82,7 +82,7 @@ function Home(){
                                 <img src="https://www.infomazeelite.com/wp-content/uploads/2022/02/Hire-MERN-Stack-Developers-from-us.png"  class="imageService" alt="" />
                                 <div className="buttonsDivContact">
                                     <div  data-aos="flip-left"data-aos-duration="1500"  className="btnDownload">
-                                        <Link to="/contact">Contact Me</Link>
+                                        <Link to="/contact" className="link" >Contact Me</Link>
                                     </div>
                                 </div>
                         </div>
@@ -185,7 +185,7 @@ function Home(){
                     <div>
                         <div className="buttonsDivProjects">
                             <div  data-aos="flip-left"data-aos-duration="1500"  className="btnDownload">
-                                <Link to="/projects">Projects</Link>
+                                <Link  className="link"  to="/projects">Projects</Link>
                             </div>
                         </div>
                     </div>

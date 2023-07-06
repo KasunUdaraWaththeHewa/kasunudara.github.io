@@ -94,6 +94,12 @@
     margin-bottom: 10px;
     text-decoration: none;
 }
+.link{
+  color: white;
+}
+.link:hover{
+  color: white;
+}
 .btnDownload:hover{
     background-color: #415a77;
     color: white;
