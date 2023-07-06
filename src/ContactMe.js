@@ -12,7 +12,7 @@ function ContactMe(){
         emailjs.sendForm("service_ocm0cm4", 'template_eb2egy8', form.current, 'BeH994FBrxLskJ5rq')
         .then((result) => {
             console.log(result.text);
-            console.log("message sent");
+            window.alert("message sent");
             e.target.reset();
         }, (error) => {
             console.log(error.text);
